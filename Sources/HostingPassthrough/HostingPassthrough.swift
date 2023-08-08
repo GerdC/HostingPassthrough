@@ -16,7 +16,7 @@ open class HostingParentController: UIViewController {
         view = capturer
     }
     
-    public override func viewWillLayoutSubviews() {
+    open override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         
         let capturer = view as! HostingParentView
